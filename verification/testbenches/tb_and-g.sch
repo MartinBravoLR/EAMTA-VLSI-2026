@@ -17,16 +17,16 @@ N -460 -110 -360 -110 {lab=#net1}
 N -190 -40 -190 -20 {lab=0}
 N -290 -110 -190 -110 {lab=#net1}
 N -190 -110 -190 -100 {lab=#net1}
-N -100 -110 70 -110 {lab=#net1}
 N 70 -170 70 -110 {lab=#net1}
 N 70 -370 70 -230 {lab=VOUT}
 N 70 -370 140 -370 {lab=VOUT}
-N -20 -370 70 -370 {lab=VOUT}
-N -100 -330 -100 -110 {lab=#net1}
+N -100 -110 70 -110 {lab=#net1}
+N -200 -360 -160 -360 {lab=VB}
+N -360 -380 -160 -380 {lab=VA}
+N -0 -370 70 -370 {lab=VOUT}
+N -100 -310 -100 -110 {lab=#net1}
 N -190 -110 -100 -110 {lab=#net1}
-N -200 -360 -140 -360 {lab=VB}
-N -360 -380 -140 -380 {lab=VA}
-N -460 -430 -100 -410 {lab=#net2}
+N -460 -430 -100 -430 {lab=#net2}
 C {blocks/and-g/and-g.sym} -10 -360 0 0 {name=x1}
 C {vsource.sym} -360 -270 0 0 {name=VA value="PULSE(\{VDD\} 0 0.0 1p 1p \{Tclk/4\} \{Tclk/2\}) DC 0 AC 0" savecurrent}
 C {vsource.sym} -460 -360 0 0 {name=V1 value=DC\{VDD\} savecurrent=false}
