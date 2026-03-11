@@ -167,8 +167,6 @@ spiceprefix=X
 }
 C {lab_pin.sym} -500 -50 1 0 {name=p5 sig_type=std_logic lab=n_clk}
 C {lab_pin.sym} -500 270 3 0 {name=p6 sig_type=std_logic lab=clk}
-C {blocks/nor/nor.sym} -110 190 0 1 {name=x2}
-C {blocks/nor/nor.sym} -60 -270 0 0 {name=x3}
 C {blocks/inverter/inverter.sym} 250 -90 1 0 {name=x4}
 C {sg13g2_pr/sg13_lv_nmos.sym} 40 -70 1 0 {name=M7
 l=0.13u
@@ -202,3 +200,5 @@ C {lab_pin.sym} -140 70 0 1 {name=p18 sig_type=std_logic lab=clr}
 C {lab_pin.sym} -10 -310 0 0 {name=p19 sig_type=std_logic lab=clr}
 C {iopin.sym} -250 -700 3 0 {name=p20 lab=VDD}
 C {iopin.sym} -260 680 3 1 {name=p21 lab=VSS}
+C {blocks/norgate/nor.sym} -60 -270 0 0 {name=x2}
+C {blocks/norgate/nor.sym} -110 190 0 1 {name=x3}
