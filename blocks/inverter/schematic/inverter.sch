@@ -34,7 +34,7 @@ F {}
 E {}
 N 20 40 80 40 {lab=OUT}
 N 20 30 20 40 {lab=OUT}
-N 20 30 20 50 {lab=OUT}
+N 20 40 20 50 {lab=OUT}
 N -70 40 -40 40 {lab=IN}
 N -40 0 -40 40 {lab=IN}
 N -40 0 -20 0 {lab=IN}
@@ -43,13 +43,13 @@ N -40 80 -20 80 {lab=IN}
 N 20 80 70 80 {lab=VSS}
 N 70 80 70 120 {lab=VSS}
 N 70 120 90 120 {lab=VSS}
-N 70 120 90 120 {lab=VSS}
 N 20 120 70 120 {lab=VSS}
 N 20 110 20 120 {lab=VSS}
-N 20 -30 90 -30 {lab=VDD}
+N 50 -30 90 -30 {lab=VDD}
 N 20 -0 50 0 {lab=VDD}
 N 50 -30 50 0 {lab=VDD}
-C {/foss/pdks/ihp-sg13g2/libs.tech/xschem/sg13g2_pr/sg13_lv_nmos.sym} 0 80 0 0 {name=M1
+N 20 -30 50 -30 {lab=VDD}
+C {sg13g2_pr/sg13_lv_nmos.sym} 0 80 0 0 {name=M1
 l=0.13u
 w=0.15u
 ng=1
@@ -57,7 +57,7 @@ m=1
 model=sg13_lv_nmos
 spiceprefix=X
 }
-C {/foss/pdks/ihp-sg13g2/libs.tech/xschem/sg13g2_pr/sg13_lv_pmos.sym} 0 0 0 0 {name=M2
+C {sg13g2_pr/sg13_lv_pmos.sym} 0 0 0 0 {name=M2
 l=0.13u
 w=0.15u
 ng=1

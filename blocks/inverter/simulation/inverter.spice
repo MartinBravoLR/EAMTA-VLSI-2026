@@ -1,0 +1,10 @@
+** sch_path: /home/dell/EAMTA2026-VLSI/design/blocks/inverter/inverter.sch
+**.subckt inverter VDD OUT IN VSS
+*.iopin OUT
+*.iopin VDD
+*.iopin VSS
+*.iopin IN
+XM1 OUT IN VDD VDD sg13_lv_pmos w=1.5u l=0.15u ng=1
+XM2 OUT IN VSS VSS sg13_lv_nmos w=0.75u l=0.15u ng=1
+**.ends
+.end
