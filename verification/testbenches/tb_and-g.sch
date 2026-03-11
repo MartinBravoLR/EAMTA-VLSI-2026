@@ -21,13 +21,13 @@ N 70 -170 70 -110 {lab=#net1}
 N 70 -370 70 -230 {lab=VOUT}
 N 70 -370 140 -370 {lab=VOUT}
 N -100 -110 70 -110 {lab=#net1}
-N -200 -360 -160 -360 {lab=VB}
-N -360 -380 -160 -380 {lab=VA}
-N -0 -370 70 -370 {lab=VOUT}
+N -200 -360 -150 -360 {lab=VB}
+N -360 -380 -150 -380 {lab=VA}
 N -100 -310 -100 -110 {lab=#net1}
 N -190 -110 -100 -110 {lab=#net1}
-N -460 -430 -100 -430 {lab=#net2}
-C {blocks/and-g/and-g.sym} -10 -360 0 0 {name=x1}
+N -460 -430 -90 -430 {lab=#net2}
+N -100 -310 -90 -310 {lab=#net1}
+N 10 -370 70 -370 {lab=VOUT}
 C {vsource.sym} -360 -270 0 0 {name=VA value="PULSE(\{VDD\} 0 0.0 1p 1p \{Tclk/4\} \{Tclk/2\}) DC 0 AC 0" savecurrent}
 C {vsource.sym} -460 -360 0 0 {name=V1 value=DC\{VDD\} savecurrent=false}
 C {vsource.sym} -290 -180 0 0 {name=VB value="PULSE(\{VDD\} 0 0.0 1p 1p \{Tclk/2\} \{Tclk\}) DC 0 AC 0" savecurrent}
@@ -62,3 +62,4 @@ write dcsweep.raw
 C {lab_pin.sym} -300 -380 1 1 {name=p1 sig_type=std_logic lab=VA}
 C {lab_pin.sym} -210 -210 1 1 {name=p2 sig_type=std_logic lab=VB}
 C {lab_pin.sym} 140 -370 1 1 {name=p3 sig_type=std_logic lab=VOUT}
+C {blocks/andgate/and-g.sym} 0 -360 0 0 {name=x1}
