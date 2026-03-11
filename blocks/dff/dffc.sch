@@ -114,16 +114,16 @@ N -390 -170 -390 640 {lab=VSS}
 N -610 640 -390 640 {lab=VSS}
 C {blocks/inverter/inverter.sym} -410 -410 0 0 {name=x1}
 C {sg13g2_pr/sg13_lv_nmos.sym} -650 -490 1 0 {name=M1
-l=0.13u
-w=0.15u
+l=0.15u
+w=0.75u
 ng=1
 m=1
 model=sg13_lv_nmos
 spiceprefix=X
 }
 C {sg13g2_pr/sg13_lv_pmos.sym} -650 -280 3 0 {name=M2
-l=0.13u
-w=0.15u
+l=0.15u
+w=01.5u
 ng=1
 m=1
 model=sg13_lv_pmos
@@ -132,16 +132,16 @@ spiceprefix=X
 C {lab_pin.sym} -650 -540 1 0 {name=p1 sig_type=std_logic lab=clk}
 C {lab_pin.sym} -650 -220 3 0 {name=p2 sig_type=std_logic lab=n_clk}
 C {sg13g2_pr/sg13_lv_nmos.sym} -250 -480 1 0 {name=M3
-l=0.13u
-w=0.15u
+l=0.15u
+w=0.75u
 ng=1
 m=1
 model=sg13_lv_nmos
 spiceprefix=X
 }
 C {sg13g2_pr/sg13_lv_pmos.sym} -250 -270 3 0 {name=M4
-l=0.13u
-w=0.15u
+l=0.15u
+w=1.5u
 ng=1
 m=1
 model=sg13_lv_pmos
@@ -150,16 +150,16 @@ spiceprefix=X
 C {lab_pin.sym} -250 -530 1 0 {name=p3 sig_type=std_logic lab=n_clk}
 C {lab_pin.sym} -250 -210 3 0 {name=p4 sig_type=std_logic lab=clk}
 C {sg13g2_pr/sg13_lv_nmos.sym} -500 0 1 0 {name=M5
-l=0.13u
-w=0.15u
+l=0.15u
+w=0.75u
 ng=1
 m=1
 model=sg13_lv_nmos
 spiceprefix=X
 }
 C {sg13g2_pr/sg13_lv_pmos.sym} -500 210 3 0 {name=M6
-l=0.13u
-w=0.15u
+l=0.15u
+w=1.5u
 ng=1
 m=1
 model=sg13_lv_pmos
@@ -169,16 +169,16 @@ C {lab_pin.sym} -500 -50 1 0 {name=p5 sig_type=std_logic lab=n_clk}
 C {lab_pin.sym} -500 270 3 0 {name=p6 sig_type=std_logic lab=clk}
 C {blocks/inverter/inverter.sym} 250 -90 1 0 {name=x4}
 C {sg13g2_pr/sg13_lv_nmos.sym} 40 -70 1 0 {name=M7
-l=0.13u
-w=0.15u
+l=0.15u
+w=0.75u
 ng=1
 m=1
 model=sg13_lv_nmos
 spiceprefix=X
 }
 C {sg13g2_pr/sg13_lv_pmos.sym} 40 140 3 0 {name=M8
-l=0.13u
-w=0.15u
+l=0.15u
+w=1.5u
 ng=1
 m=1
 model=sg13_lv_pmos

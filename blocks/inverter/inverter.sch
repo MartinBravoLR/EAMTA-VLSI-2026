@@ -5,11 +5,11 @@ V {}
 S {}
 F {}
 E {}
-N -110 -90 -70 -90 {lab=xxx}
-N -110 -40 -110 10 {lab=xxx}
-N -110 10 -70 10 {lab=xxx}
-N -140 -40 -110 -40 {lab=xxx}
-N -110 -90 -110 -40 {lab=xxx}
+N -110 -90 -70 -90 {lab=IN}
+N -110 -40 -110 10 {lab=IN}
+N -110 10 -70 10 {lab=IN}
+N -140 -40 -110 -40 {lab=IN}
+N -110 -90 -110 -40 {lab=IN}
 N -30 -40 -30 -20 {lab=OUT}
 N -30 -40 60 -40 {lab=OUT}
 N -30 -60 -30 -40 {lab=OUT}
@@ -24,16 +24,16 @@ N -30 10 0 10 {lab=VSS}
 N 0 -140 60 -140 {lab=VDD}
 N -0 60 60 60 {lab=VSS}
 C {sg13g2_pr/sg13_lv_pmos.sym} -50 -90 0 0 {name=M1
-l=0.13u
-w=0.15u
+l=0.15u
+w=1.5u
 ng=1
 m=1
 model=sg13_lv_pmos
 spiceprefix=X
 }
 C {sg13g2_pr/sg13_lv_nmos.sym} -50 10 0 0 {name=M2
-l=0.13u
-w=0.15u
+l=0.15u
+w=0.75u
 ng=1
 m=1
 model=sg13_lv_nmos
